@@ -8,8 +8,8 @@
     <title>About Us | White Water Rafting</title>
     styles/rafting.css
 </head>
-<body>
-
+<body> 
+    
 <header>
     images/logo.png
     <nav>
