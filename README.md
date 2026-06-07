@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="About Us - White Water Rafting Adventures">
-    <meta name="author" content="Stephen Agyeman">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | White Water Rafting</title>
-    styles/rafting.css
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Wild Water Rafting</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Add your CSS file if needed -->
 </head>
 <body>
+  <header>
+    <h1>Wild Water Rafting</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- Header -->
-    <header>
-        images/logo.png
-        <nav>
-            index.htmlHome</a>
-            <a href="about.html">About Us</a>
-            trips.htmlTrips</a>
-            contact.htmlContact Us</a>
-        </nav>
-    </header>
+  <main>
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you! Please fill out the form below to get in touch:</p>
 
-    <!-- Hero Section -->
-    <main>
-        <div class="hero">
-            images/hero.jpg
-            <h1>White Water Rafting</h1>
-            <article>
-                images/happy-client.jpg
-                <p>
-                    Our mission is to provide unforgettable rafting adventures while ensuring safety, fun, and environmental responsibility.
-                    Join us for a thrilling journey on the river!
-                </p>
-            </article>
-        </div>
+    <form action="#" method="post">
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" required minlength="2"><br><br>
 
-        <!-- History Section -->
-        <section>
-            <h2>History</h2>
-            <p>
+      <label for="email">Email Address:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" required rows="5"></textarea><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Wild Water Rafting. All rights reserved.</p>
+  </footer>
+</body>
+</html>
